@@ -285,8 +285,8 @@ if __name__ == '__main__':
     ip_find_pass = []
 
     # 靶机范围
-    ip_range = "192.168.200.0"
-    netmask = 27
+    ip_range = "10.96.1.0"
+    netmask = 24
     start_scan(ip_range, netmask)
 
     # 字典文件
